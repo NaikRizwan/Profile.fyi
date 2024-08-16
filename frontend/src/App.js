@@ -16,14 +16,19 @@ import Footer from "./components/Footer";
 // import { useContext, useReducer } from "react";
 
 import Nav from "./components/Nav";
+import Contact from "./Headers/Contact";
+import About from "./components/About";
 
 const Routing = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Products />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products />} />
 
         <Route path="/cart" element={<Cart />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
 
         <Route path="/singleproduct/:id" element={<SingleProduct />} />
       </Routes>

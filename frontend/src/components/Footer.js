@@ -24,8 +24,8 @@ const Footer = () => {
       <footer>
         <div className="container grid grid-four-column">
           <div className="footer-about">
-            <h3>Jamia Stationary</h3>
-            <p>Jamia Stationery: Where quality meets affordability.</p>
+            <h3>Profile.fyi</h3>
+            <p>Profile.fyi: Where quality meets affordability.</p>
           </div>
           <div className="footer-subscribe">
             <h3>Subscribe to get important updates</h3>
@@ -57,9 +57,7 @@ const Footer = () => {
         <div className="footer-bottom--section">
           <hr />
           <div className="container grid grid-two-column">
-            <p>
-              @{new Date().getFullYear()} Jamia Stationary. All Rights Reserved
-            </p>
+            <p>@{new Date().getFullYear()} Profile.fyi. All Rights Reserved</p>
             <div>
               <p>PRIVACY POLICY</p>
               <p>TERMS & CONDITIONS</p>

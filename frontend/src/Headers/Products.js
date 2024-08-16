@@ -22,7 +22,7 @@ const Products = () => {
           </div>
         </section>
       </div>
-      <Home />
+     
     </Wrapper>
   );
 };

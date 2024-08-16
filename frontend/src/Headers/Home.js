@@ -11,6 +11,7 @@
 // import FeatureProduct from "../components/FeatureProduct";
 //import HeroSection from "./components/HeroSection";
 import Services from "../components/Services";
+import Products from "./Products";
 import Truested from "../components/Truested";
 // import { Button } from "../styles/Button";
 // import { NavLink } from "react-router-dom";
@@ -49,6 +50,7 @@ const Home = () => {
       </div>
        <HeroSection myData={data} /> 
       <FeatureProduct /> */}
+      <Products />
       <Services />
       <Truested />
     </>

@@ -382,6 +382,7 @@ const Cart = () => {
   };
 
   const handleProceedToBuy = () => {
+    alert("Payement funcationlay will be added later");
     if (selectedPaymentMethod !== "") {
       setShowPaymentComponents(true);
     } else {

@@ -1,4 +1,3 @@
-// Navbar.js
 import React, { useState } from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
@@ -18,9 +17,16 @@ const NavbarContainer = styled.nav`
 `;
 
 const NavLogo = styled.h1`
-  color: #fff;
-  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ff6347;
+  background: linear-gradient(135deg, #ff6347, #ffa07a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 
   @media (max-width: 768px) {
     margin-bottom: 15px;
